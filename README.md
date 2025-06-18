@@ -23,6 +23,8 @@ The pipeline follows a modern data lake architecture, leveraging key AWS service
 5.  **Querying:** **Amazon Athena** connects to the Glue Data Catalog, allowing for powerful, serverless SQL queries directly on the Parquet data in S3.
 6.  **Visualization:** **Amazon QuickSight** integrates with Athena to create an interactive dashboard, enabling business users to explore insights from the cleaned and curated data.
 
+![Project Architecture Diagram](aws_project_architecture.jpeg)
+
 ## ✨ Key Features & Technologies
 
 * **Scalable Data Lake:** Implemented on **Amazon S3** with distinct Raw and Cleaned data zones.
